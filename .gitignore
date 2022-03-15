@@ -38,3 +38,4 @@ dist/*
 
 # Vercel
 .vercel
+.vscode
