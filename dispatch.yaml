@@ -1,0 +1,3 @@
+dispatch:
+  - url: "analytics.ryaposov.com/*"
+    service: analytics

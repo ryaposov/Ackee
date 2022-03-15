@@ -31,7 +31,7 @@
     "coveralls": "nyc report --reporter=lcov",
     "test": "npm run lint && nyc ava",
     "lint": "eslint \"{functions,src,test}/**/*.js\"",
-    "deploy": "npm run build-ackee && gcloud app deploy production.yaml --project analytics-344212"
+    "deploy": "npm run build-ackee && gcloud app deploy"
   },
   "dependencies": {
     "ackee-tracker": "^5.1.0",
